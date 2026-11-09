@@ -1,0 +1,14 @@
+﻿{
+  "version": 1,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "durationInFrames": 4500,
+  "shots": [
+    { "id": "shot-1", "file": "scene-0.tsx", "startFrame": 0, "durationFrames": 777 },
+    { "id": "shot-2", "file": "scene-1.tsx", "startFrame": 777, "durationFrames": 1015 },
+    { "id": "shot-3", "file": "scene-2.tsx", "startFrame": 1792, "durationFrames": 978 },
+    { "id": "shot-4", "file": "scene-3.tsx", "startFrame": 2770, "durationFrames": 815 },
+    { "id": "shot-5", "file": "scene-4.tsx", "startFrame": 3585, "durationFrames": 915 }
+  ]
+}
