@@ -60,3 +60,21 @@ cd projects/01-left-behind-film/src
 
 片中人物为多个真实案例的**合成形象**，不是具体某个人；场景为示意。
 片子里出现的政策细节（居住证、社保年限、公办学位等）以拍摄时公开信息为准，转述时请自行核对。
+
+---
+
+## 参赛材料（Kiroween 2026）
+
+这个仓库同时作为 **Kiroween 2026** 的参赛工程，赛道 **Resurrection**。
+
+- 参赛文案（英文，可直接粘到 Devpost）：[\docs/devpost-submission.md\](docs/devpost-submission.md)
+- Kiro 工程结构：
+
+\\\
+.kiro/
+├─ steering/            product / visual-language / engineering —— 给 agent 的硬规则
+├─ specs/film-pipeline/ requirements / design / tasks —— 从分镜到成片的管线
+└─ hooks/               preview-edited-shot · guard-visual-rules
+\\\
+
+> .kiro 目录必须保留在仓库根目录，不能写进 .gitignore（Kiroween 硬性要求）。

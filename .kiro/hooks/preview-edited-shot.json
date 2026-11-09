@@ -1,0 +1,14 @@
+{
+  "name": "preview-edited-shot",
+  "description": "Every time a shot file is saved, render three frames of that shot so review happens against pixels, not against code.",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "projects/01-left-behind-film/src/components/shot*.ts"
+    ]
+  },
+  "then": {
+    "type": "runCommand",
+    "command": "npm run preview -- --file \"$FILE\" --frames first,middle,last"
+  }
+}
